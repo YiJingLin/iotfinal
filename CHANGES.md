@@ -47,7 +47,7 @@
 6. create **simulation.ipnb** for large parking spaces simulation
 
 <a id="1"> </a>
-## [Create kernel.py](#1) [1][1]
+## [Create kernel.py](#1)
 > Jan 05, 2018
 
 1. add **kernel.py** : parking algorithm class
