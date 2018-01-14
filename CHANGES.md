@@ -1,11 +1,15 @@
-## [Pricing stratgy and vehicle spaces control](#4) [4][4]
+<a id="4"> </a>
+## [Pricing stratgy and vehicle spaces control](#4) 
+
 > Jan 08, 2018
 1. change price startegy : 
     - there's only two price following scooter parking space, 10 or 20, which depend on the priority. Only one or few parking space have 10 dollars price, other are set to 20 becuase of lower priority.
     - If parking vehicle is car. Price is set to 40. (and 80 dollar when parking space is in the middle of the parking lot)
 2. add **car_parking_space_request** function to master.py : when 4 sides of car space are parked, the **master** with last parked space will send request to next **master** (with board_index). next **master** will merge scooter space to car one if there have enough parking space, or the **master** will pass the request to next **master** again.
 
-## [Link from raspberryPi to kernel](#3) [3][3]
+<a id="3"> </a>
+## [Link from raspberryPi to kernel](#3)
+
 > Jan 07, 2018
 
 1. add functions to **kernel.py** :
@@ -19,7 +23,8 @@
 3. rename **trygrove.py** as **master.py** or **slave.py**, depends on board task
 4. delete **udpdevice_mag_strip.py**, **turnallrgboff** and **WukongStandardLibrary.xml**, because we dont apply **[Wukong](http://iox.ntu.edu.tw/research/projectinfo/wukong)** at all.
 
-## [Add multiple List for info storage](#2) [2][2]
+<a id="2"> </a>
+## [Add multiple List for info storage](#2)
 
 > Jan 06, 2018
 
@@ -41,6 +46,7 @@
 5. create kernel directory and move **kernel.py** into it
 6. create **simulation.ipnb** for large parking spaces simulation
 
+<a id="1"> </a>
 ## [Create kernel.py](#1) [1][1]
 > Jan 05, 2018
 
