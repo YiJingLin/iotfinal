@@ -14,7 +14,7 @@ NTU-EECS 吳明憲(Ｗu.MingSian) ([github](https://github.com/spadek67424))
 Distributed, dynamic parking system aim to provide more parking spaces. The system work in raspberryPi or other tiny computer, and the computer will be installed at every parking lot. 
 
 ### communication and sensors : 
-![img](./doc/demo.png = 100x)
+![](./doc/demo.png =100x)
 Communication between computers is implemented with [MQTT](https://swf.com.tw/?p=1002), and parking event is triggered by magnetic sensors.
 
 ### Algorithm :
