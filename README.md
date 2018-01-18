@@ -11,7 +11,7 @@ NTU-EECS 吳明憲(Ｗu.MingSian) ([github](https://github.com/spadek67424))
 ## System Introduction :
 
 ### Abstract :
-Distributed, dynamic parking system aim to provide more parking spaces. The system work in raspberryPi or other tiny computer, and the computer will be installed at every parking lot. To guide the user to the vacant space we predicted, the system will calculate score for every parking space, and set the price according to the score. We assume user will choose the space with lowest price, and we can make parking lot easier to split and merge spaces we want, then make biggest profit to system and public.
+Distributed, dynamic parking system aims to provide more parking spaces. The system work in raspberryPi or other tiny computer, and the computer will be installed at every parking lot. To guide the user to the vacant space we predicted, the system will calculate score for every parking space, and set the price according to the score. We assume user will choose the space with lowest price, and we can make parking lot easier to split and merge spaces we want, then make biggest profit to system and public.
 
 ### communication and sensors : 
 ![demo_img](./doc/demo.png)
@@ -24,7 +24,7 @@ First, our algorithm will calculate a score for each parking space. The algorith
 	
 	score = SnE + SnV + VnE
 
-- _S_ means **Space**, E means **Edge** (each parking lot have 2 edge, left and right one) and V means **vehicle which is parking on nearby space**. 
+- _S_ means **Space**, _E_ means **Edge** (each parking lot have 2 edge, left and right one) and _V_ means **vehicle which is parking on nearby space**. 
 - _SnE_ represent **the distance from the space to nearest edge** . Choose left one if parking lot have odd number spaces and the space we choosing is in the middle.
 - _SnV_ represent **the distance from the space to nearest parking vehicle**. Choose the one which have same nearest edge with the space if there have nearest parking vehicles on both side. Also, choose left one if parking lot have odd number parking space and the space is in the middle.
 - _VnE_ represent **the distance from nearest vehicle to its nearest edge**. the nearest vehicle is one we chose in _SnV_.
