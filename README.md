@@ -2,7 +2,8 @@
 > Department of Computer Science and Information Engineering, National Taiwan University (NTUCSIE) \
 > [Design for IoT Middleware (2017, Fall)](https://ceiba.ntu.edu.tw/course/3e1205/index.htm) - Final Project
 
-[![Maintained?](https://img.shields.io/badge/Maintained?-no-red.svg)](https://pypi.python.org/pypi/jieba/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
+
 
 ## Collaborators :
 NTU-CSIE 顏逸東(Yan.YiDong) \
